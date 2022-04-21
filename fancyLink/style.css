@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+}
+.gaia-link {
+    color: #134e8a;
+    background-image: linear-gradient(transparent, rgba(17, 166, 161, 0.1));
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.fancy-link {
+    background-image: linear-gradient(90deg, red, blue);
+    background-size: 0 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 500ms ease;
+}
+
+.fancy-link:hover {
+    background-size: 100% 3px;
+}
